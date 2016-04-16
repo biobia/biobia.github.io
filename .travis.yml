@@ -12,4 +12,9 @@ script:
   - cd blog
   - bake
   - bake feed
-  - ls
+  - cd ..
+  - ./deploy.sh
+env:
+  global:
+    - GH_REF: github.com/biobia/biobia.github.io.git
+    - secure: "nCa91pP1+yHnBW/MkZcycHToBUW0/F1Za+6lrs7GKQaKAxNIBTW8a36tHziXUM5eE8E1KjynT6ruJcUv9jdcW9QBnSLEu+OjZi+zMDPW8WqXg9+qoVuiCD6PQRkeUTbV9aO37NJZ097Gg9+8KKz5j8LcmxXCKDrDrSg+hezGeCG3C/z4cN7OKq1/y93EKNK0Wfg94rWtiFzi5FtTBKO8WCIh7u+MkMymGO1xXZLLPlDEHG1S1LUf/B2QDwvcRy9xR/LEkpEVVjQQBvAXPR1SxsT3TuSkbb/4H8LPH+tsTazPeqak16D5XaH5IpGdvjeqL9MwmWnwiiijwOrrJKlaFEYflCPnEUS8bEIgkThyTGkyj1ERpLtlVrzMaypwRMrC3/tK/d8xGtDj1JYO3jAQEyNmierSHaLqZ95mNfaOAeZkWzlxeUInY+t4HqInxOAkvcNDFfwIipPj89QP8bn/RJmzfrhCYBVhVP5sp8BucXmpx2KIkIUmTHeqJ5b/Op174b3raU0GBxKkNur7/WqKpjcCr5aycx5H0EOl/cit295DhcRf8AnT8Uya1rm6pRnJwuacbVuXuFT/isYCi7VMEay2bkiXRl2Atnfasrnja1r1jaf1V42nYMQlBinMsXsL1YFdou6XI4IYzTsvuxMlH37vpI8nPUOr5Ajt99lNFnM="

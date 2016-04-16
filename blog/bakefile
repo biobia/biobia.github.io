@@ -1,5 +1,5 @@
-output		= ../post/
-index_output= ../
+output		= ../output/post/
+index_output= ../output/
 date		= "%d de %B às %H:%M"
 template	= templates/template.html
 post_template = templates/post.html

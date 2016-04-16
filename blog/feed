@@ -1,4 +1,4 @@
-output      = ../feed.rss
+output      = ../output/feed.rss
 template    = templates/rss.xml
 host        = "http://biobia.github.io/post/"
 lang        = pt_BR
