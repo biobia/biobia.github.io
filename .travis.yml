@@ -1,0 +1,8 @@
+before_install:
+    - sudo apt-get install g++
+
+before_script:
+    - git clone --depth 1 https://github.com/felipetavares/bake
+    - cd bake
+    - make
+    - sudo make install
