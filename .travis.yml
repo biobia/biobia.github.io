@@ -1,5 +1,5 @@
 before_install:
-    - sudo apt-get install g++
+    - sudo apt-get install g++ -y
 
 before_script:
     - git clone --depth 1 https://github.com/felipetavares/bake
