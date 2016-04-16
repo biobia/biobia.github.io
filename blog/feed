@@ -1,0 +1,7 @@
+output      = ../feed.rss
+template    = templates/rss.xml
+host        = "http://biobia.github.io/post/"
+lang        = pt_BR
+hash        = true
+date        = "%a, %d %b %Y %H:%M:%S %z"
+feed        = true
