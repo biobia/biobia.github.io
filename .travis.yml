@@ -1,6 +1,5 @@
-before_install:
-  - sudo apt-get install g++-4.9 -y
-
+language: cpp
+compiler: gcc
 before_script:
   - git clone --depth 1 https://github.com/felipetavares/bake
   - cd bake
