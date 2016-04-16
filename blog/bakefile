@@ -1,0 +1,8 @@
+output		= ../post/
+index_output= ../
+date		= "%d de %B às %H:%M"
+template	= templates/template.html
+post_template = templates/post.html
+host 		= "http://biobia.github.com/post/"
+hash        = true
+lang		= pt_BR
