@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My Blog Title</title>
+    <link>My Blog Link</link>
+    <description>My Blog Description</description>
+    <generator>Bake</generator>
+    <language>Language</language>
+    <managingEditor>My Name</managingEditor>
+    <webMaster>Web Master's Name</webMaster>
+    <copyright>Copyright &#0184; Year My Name?</copyright>
+    <atom:link href="The url" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Pelas barbas dos dragões</title>
+      <link>http://biobia.github.io/post/feed.rss#15469384817953179018</link>
+      <pubDate>Mon, 18 Apr 2016 09:58:00 +0000</pubDate>
+      <author>felipe</author>
+      <guid>http://biobia.github.io/post/feed.rss#15469384817953179018</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Oi</title>
+      <link>http://biobia.github.io/post/feed.rss#13838595534199539726</link>
+      <pubDate>Mon, 18 Apr 2016 09:58:00 +0000</pubDate>
+      <author>biaah</author>
+      <guid>http://biobia.github.io/post/feed.rss#13838595534199539726</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
+
